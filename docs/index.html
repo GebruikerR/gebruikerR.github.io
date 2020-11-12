@@ -12,7 +12,7 @@
     <meta name="description" content="De gehele BiNaS online">
 
     <!-- TODO: Replace the theme name or leave as is. -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     <style>
         /* Fix issue on mobile devices where a custom cover image goes off the screen. */
         section.cover.show {
@@ -40,13 +40,7 @@
             loadSidebar: false,
             subMaxLevel: 2,
 
-            plugins: [
-                EditOnGithubPlugin.create(
-                    repo + '/blob/master/docs/',
-                    null,
-                    '📝 Edit on GitHub',
-                )
-            ],
+            plugins: [],
         }
 
     </script>
