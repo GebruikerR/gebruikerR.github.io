@@ -36,7 +36,10 @@
         window.$docsify = {
             name: 'BiNaS', // TODO: Update.
             repo: 'https://github.com/GebruikerR/gebruikerR.github.io',
-            search: 'auto', // default
+            search: {
+                paths: 'auto',
+                depth: 6
+            }, // default
             auto2top: true,
             //            loadSidebar: 'https://gebruikerr.github.io/docs/_sidebar.md',
             loadSidebar: true,
