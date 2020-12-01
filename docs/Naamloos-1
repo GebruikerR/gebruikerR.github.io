@@ -1,0 +1,5 @@
+'/.*/_sidebar.md': '/_sidebar.md',
+'.*?/core':'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/core.md',
+'.*?/tree':'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/tree.md',
+'.*?/api':'https://raw.githubusercontent.com/posthtml/posthtml/master/docs/api.md',
+'.*?/cli':'https://raw.githubusercontent.com/posthtml/posthtml-cli/master/readme.md',
